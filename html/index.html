@@ -1,0 +1,20 @@
+@include('components/_head.html')
+@include('components/_header.html')
+
+<main class="main">
+    @include('components/_banner.html')
+    <div class="background-wrap" style="background-image: url('images/background/about-bg1.jpg');">
+        @include('components/_about.html')
+        @include('components/_direction.html')
+    </div>
+    @include('components/_company.html')
+    <div class="background-wrap" style="background-image: url('images/background/about-bg1.jpg');">
+        @include('components/_sale.html')
+        @include('components/_request.html')
+        @include('components/_feedback.html')
+    </div>
+
+
+</main>
+@include('components/_footer.html')
+@include('components/_footer-scripts.html')
